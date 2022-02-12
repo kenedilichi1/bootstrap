@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation section */
+#nav__container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: #333030;
+    color: rgb(165, 165, 165);
+}
+
+#left__align{
+    margin-left: 2%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 22%;
+}
+
+#site__logo{
+    text-align: center;
+}
+#site__logo > h1{
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#menue__icon{
+    text-align: center
+}
+#menue__icon > i{
+    padding-top: 5px;
+}
+
+
+#right__align{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 0;
+}
+
+#right__align:last-child{
+    margin-right: 2%;
+}
+
+#search__input{
+    text-align: center;
+    margin: 2px 0;
+    margin-right: 82px;
+
+}
+
+#search__input > input{
+    width: 160%;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    
+    
+}
+
+#search__button{
+    margin-right: 25px;
+    background: rgb(99, 99, 244);
+    text-align: center;
+    height: 35px;
+    width: 38px;
+    border-radius: 3px;
+}
+
+#search__button > i{
+    padding-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+
+#user__profile{
+    margin-right: 5px;
+    
+}
+
+#user__profile > i{
+    font-size: .75rem;
+    cursor: pointer;
+}
+
+#drop__down{
+    background: #333030;
+}
+
+#drop__down > i{
+    font-size: .7rem;
+    cursor: pointer;
+}
+
+/* middle section */
+
+#middle{
+    display: flex;
+    width: 100%;
+    gap: 2%;
+}
+
+/* Side bar section */
+#side__bar-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: #333030;
+    width: 25%;
+    height: 86.7vh;
+    padding-top: 3%;
+    padding-left: 1.5%;
+    color: gray;
+    position: relative;
+}
+
+#core > h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#dash__board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+#dash__board > i{
+    font-size: .8rem;
+    padding-right: 10px;
+}
+
+#dash__board > h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#interface{
+    margin: 5px 0 20px;
+}
+#interface > h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#layouts{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 5px 0 20px;
+}
+#layouts >i{
+    font-size: .8rem;
+    padding-right: 10px;
+}
+
+#layouts > h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.arrow__icon{
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.arrow__icon >i{
+    font-size: .8rem;
+}
+
+#pages{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#pages > i{
+    font-size: .8rem;
+    padding-right: 10px;
+}
+
+#pages > h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#addons > h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#charts{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#charts > i{
+    font-size: .8rem;
+    padding-right: 10px;
+}
+
+#charts > h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#tables{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+#tables > i{
+    font-size: .8rem;
+    padding-right: 10px;
+}
+
+#tables > h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#foot__section{
+    width: 103%;
+    background: rgb(80, 77, 77);
+    margin-left: -20px;
+    height: 75px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px 0 0 10px;
+}
+
+#foot__section >p{
+    padding-bottom: 3px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#foot__section > h2{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* main__page-cointainer */
+#main__table-page__cointainer{
+    width: 100%;
+    margin-top: 36px;
+}
+
+#header > h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+#header > p{
+    font-size: .9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+
+#paragraph__container{
+    border: 1px solid gray;
+    width: 95.5%;
+    padding: 15px 10px 15px 10px;
+    border-radius: 2px;
+    margin-top: 25px;
+}
+#paragraph__container > p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .95rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+}
+
+#data__table-example{
+    display: flex;
+    border: 1px solid gray;
+    align-items: center;
+    width: 96%;
+    height: 15px;
+    padding: 8px 0 10px 15px;
+    background: rgb(235, 231, 231);
+    border-radius: 2px;
+    margin-top: 25px;
+}
+
+#data__table-example > i{
+    font-size: .9rem;
+    padding-right: 5px;
+}
+
+#data__table-example > h3{
+    font-size: .95rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#datatable__section{
+    border: 1px solid gray;
+    width: 96%;
+    padding:20px 0 0 15px;
+}
+
+#datatable__top-section{
+    display: flex;
+    align-items: center;
+}
+
+#numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+}
+#numbers > h3{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 5px;
+}
+#numbers > i{
+    font-size: .8rem;
+}
+
+#entries{
+    text-align: center;
+}
+#entries >h4{
+    font-size: .85rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#datatable__search{
+    margin-left: auto;
+    margin-right: 2.8%;
+    
+}
+#datatable__search > input{
+    height: 28px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid gray;
+    font-size: .9rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#table__section{
+    margin-top: 20px;
+}
+#table__section{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    
+}
+#table__section > table{
+    width: 98.5%;
+    height: 70px;
+    
+}
+
+#table__section > table,tr, th, td{
+    border: 1px solid gray;
+    font-size: .9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 8px 0 8px 5px;
+    
+}
+
+#table__section >  tr,th{
+    font-weight: 600;
+    border-bottom: 2px solid black;
+    
+}
+#table__section >  tr,i{
+    font-size: .8rem;
+    color: gray;
+    float: right;
+    padding-right: 8px;
+    text-align: center;
+}
+
+
+
+
